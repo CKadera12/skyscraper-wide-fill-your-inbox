@@ -8,7 +8,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"index_atlas_", frames: [[927,357,54,53],[976,282,22,57],[621,0,151,205],[468,414,151,205],[774,0,151,205],[774,414,151,205],[774,207,151,205],[621,414,151,205],[306,621,151,205],[315,0,151,205],[0,602,151,205],[162,207,151,205],[162,414,151,205],[153,621,151,205],[315,207,151,205],[315,414,151,205],[468,0,151,205],[468,207,151,205],[162,0,151,205],[459,621,151,205],[612,621,151,205],[621,207,151,205],[927,282,47,73],[927,0,86,280],[0,0,160,600]]}
+		{name:"index_atlas_", frames: [[468,414,151,205],[162,0,151,205],[612,621,151,205],[315,207,151,205],[774,414,151,205],[0,602,151,205],[621,207,151,205],[774,207,151,205],[621,414,151,205],[468,0,151,205],[153,621,151,205],[315,0,151,205],[468,207,151,205],[459,621,151,205],[315,414,151,205],[162,207,151,205],[162,414,151,205],[621,0,151,205],[306,621,151,205],[774,0,151,205],[0,0,160,600]]}
 ];
 
 
@@ -72,177 +72,149 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib.candleonetallbanner = function() {
+(lib.cookieberries = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.candletwotallbanner = function() {
+(lib.cookieeight = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookieberries = function() {
+(lib.cookieeleven = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookieeight = function() {
+(lib.cookiefifteen = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookieeleven = function() {
+(lib.cookiefive = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiefifteen = function() {
+(lib.cookiefour = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiefive = function() {
+(lib.cookiefourteen = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiefour = function() {
+(lib.cookiefrosting = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiefourteen = function() {
+(lib.cookiegreens = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiefrosting = function() {
+(lib.cookienine = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiegreens = function() {
+(lib.cookieone = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookienine = function() {
+(lib.cookieseven = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookieone = function() {
+(lib.cookieseventeen = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookieseven = function() {
+(lib.cookiesix = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookieseventeen = function() {
+(lib.cookiesixteen = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiesix = function() {
+(lib.cookieten = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiesixteen = function() {
+(lib.cookiethirteen = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookieten = function() {
+(lib.cookiethree = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiethirteen = function() {
+(lib.cookietwelve = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookiethree = function() {
+(lib.cookietwo = function() {
 	this.spriteSheet = ss["index_atlas_"];
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cookietwelve = function() {
-	this.spriteSheet = ss["index_atlas_"];
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.cookietwo = function() {
-	this.spriteSheet = ss["index_atlas_"];
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.glasstopright = function() {
-	this.spriteSheet = ss["index_atlas_"];
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.tableclothtall = function() {
-	this.spriteSheet = ss["index_atlas_"];
-	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.whitetable = function() {
 	this.spriteSheet = ss["index_atlas_"];
-	this.gotoAndStop(24);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -274,19 +246,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.whitetable_1, new cjs.Rectangle(-80,-300,160,600), null);
-
-
-(lib.tableclothtall_1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer 1
-	this.instance = new lib.tableclothtall();
-	this.instance.parent = this;
-	this.instance.setTransform(-43,-140);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.tableclothtall_1, new cjs.Rectangle(-43,-140,86,280), null);
 
 
 (lib.somethingdelicioustall = function(mode,startPosition,loop) {
@@ -689,19 +648,6 @@ p.nominalBounds = new cjs.Rectangle(-175,-175,350,350);
 }).prototype = getMCSymbolPrototype(lib.holidayinspirationwideskyscraper, new cjs.Rectangle(-64.7,-31.2,129.5,62.4), null);
 
 
-(lib.glassestopright = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer 1
-	this.instance = new lib.glasstopright();
-	this.instance.parent = this;
-	this.instance.setTransform(-23.5,-36.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.glassestopright, new cjs.Rectangle(-23.5,-36.5,47,73), null);
-
-
 (lib.fillyourinboxtall = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1102,32 +1048,6 @@ p.nominalBounds = new cjs.Rectangle(-71.6,-15.2,143.2,30.4);
 }).prototype = getMCSymbolPrototype(lib.cookieberries_1, new cjs.Rectangle(-75.5,-102.5,151,205), null);
 
 
-(lib.candle2mc = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer 1
-	this.instance = new lib.candletwotallbanner();
-	this.instance.parent = this;
-	this.instance.setTransform(-11,-28.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.candle2mc, new cjs.Rectangle(-11,-28.5,22,57), null);
-
-
-(lib.candle1mc = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer 1
-	this.instance = new lib.candleonetallbanner();
-	this.instance.parent = this;
-	this.instance.setTransform(-27,-26.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.candle1mc, new cjs.Rectangle(-27,-26.5,54,53), null);
-
-
 (lib.blackwideskyscraper = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1139,20 +1059,6 @@ p.nominalBounds = new cjs.Rectangle(-71.6,-15.2,143.2,30.4);
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.blackwideskyscraper, new cjs.Rectangle(-82.1,-300,164.3,600.1), null);
-
-
-(lib.blackrectanglefillinbox = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer 1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EgMfguaIY/AAMAAABc1I4/AAg");
-	this.shape.setTransform(0,0,0.993,1.008);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-80.5,-300.5,161,601);
 
 
 (lib.fadecta = function(mode,startPosition,loop) {
@@ -1185,7 +1091,7 @@ p.nominalBounds = null;
 
 
 // stage content:
-(lib.wideskyscraperinboxsomethingdelicious = function(mode,startPosition,loop) {
+(lib.wideskyscraperfillyourinbox = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
@@ -1221,69 +1127,62 @@ p.nominalBounds = null;
 
 	this.timeline.addTween(cjs.Tween.get(this.btn_main).wait(186));
 
-	// black-rectangle
-	this.instance = new lib.blackrectanglefillinbox("synched",0);
-	this.instance.parent = this;
-	this.instance.setTransform(80,300);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(186));
-
 	// fade-from-white
-	this.instance_1 = new lib.blackwideskyscraper();
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(82.1,300);
-	this.instance_1.filters = [new cjs.ColorFilter(0, 0, 0, 1, 255, 255, 255, 0)];
-	this.instance_1.cache(-84,-302,168,604);
+	this.instance = new lib.blackwideskyscraper();
+	this.instance.parent = this;
+	this.instance.setTransform(82.1,300);
+	this.instance.filters = [new cjs.ColorFilter(0, 0, 0, 1, 255, 255, 255, 0)];
+	this.instance.cache(-84,-302,168,604);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({alpha:0},9).wait(177));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({alpha:0},9).wait(177));
 
 	// logo
-	this.instance_2 = new lib.logokale("synched",0);
-	this.instance_2.parent = this;
-	this.instance_2.setTransform(80,37.1,0.003,0.003,0,0,0,0,17.5);
-	this.instance_2.alpha = 0;
+	this.instance_1 = new lib.logokale("synched",0);
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(80,37.1,0.003,0.003,0,0,0,0,17.5);
+	this.instance_1.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(9).to({startPosition:0},0).to({scaleX:0.29,scaleY:0.29,y:42.1,alpha:1},6,cjs.Ease.get(1)).to({scaleX:0.27,scaleY:0.27,y:41.7},7,cjs.Ease.get(1)).wait(164));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(9).to({startPosition:0},0).to({scaleX:0.29,scaleY:0.29,y:42.1,alpha:1},6,cjs.Ease.get(1)).to({scaleX:0.27,scaleY:0.27,y:41.7},7,cjs.Ease.get(1)).wait(164));
 
 	// fill-your-inbox-with
-	this.instance_3 = new lib.fillyourinboxtall();
-	this.instance_3.parent = this;
-	this.instance_3.setTransform(80,204.8);
-	this.instance_3.alpha = 0;
+	this.instance_2 = new lib.fillyourinboxtall();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(80,204.8);
+	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(22).to({alpha:1},10).wait(154));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(22).to({alpha:1},10).wait(154));
 
 	// diy-tips
-	this.instance_4 = new lib.diytipswideskyscraper();
-	this.instance_4.parent = this;
-	this.instance_4.setTransform(80,248.6);
-	this.instance_4.alpha = 0;
+	this.instance_3 = new lib.diytipswideskyscraper();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(80,248.6);
+	this.instance_3.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(106).to({alpha:1},10).wait(20).to({alpha:0},5).wait(45));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(106).to({alpha:1},10).wait(20).to({alpha:0},5).wait(45));
 
 	// Party-Ready Recipes
-	this.instance_5 = new lib.partyreadyrecipeswideskyscraper();
-	this.instance_5.parent = this;
-	this.instance_5.setTransform(80,263.1);
-	this.instance_5.alpha = 0;
+	this.instance_4 = new lib.partyreadyrecipeswideskyscraper();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(80,263.1);
+	this.instance_4.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(36).to({alpha:1},10).wait(60).to({alpha:0},5).wait(75));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(36).to({alpha:1},10).wait(60).to({alpha:0},5).wait(75));
 
 	// holiday-inspiration
-	this.instance_6 = new lib.holidayinspirationwideskyscraper();
-	this.instance_6.parent = this;
-	this.instance_6.setTransform(80,262.4);
-	this.instance_6.alpha = 0;
+	this.instance_5 = new lib.holidayinspirationwideskyscraper();
+	this.instance_5.parent = this;
+	this.instance_5.setTransform(80,262.4);
+	this.instance_5.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(136).to({alpha:1},10).wait(20).to({alpha:0},5).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(136).to({alpha:1},10).wait(20).to({alpha:0},5).wait(15));
 
 	// something-delicious
-	this.instance_7 = new lib.somethingdelicioustall();
-	this.instance_7.parent = this;
-	this.instance_7.setTransform(80,263.1);
-	this.instance_7.alpha = 0;
+	this.instance_6 = new lib.somethingdelicioustall();
+	this.instance_6.parent = this;
+	this.instance_6.setTransform(80,263.1);
+	this.instance_6.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(166).to({alpha:1},10).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(166).to({alpha:1},10).wait(10));
 
 	// sign-up-mask (mask)
 	var mask = new cjs.Shape();
@@ -1292,18 +1191,18 @@ p.nominalBounds = null;
 	mask.setTransform(80.8,332.3);
 
 	// sign up for emails
-	this.instance_8 = new lib.signupgfx("synched",0);
-	this.instance_8.parent = this;
-	this.instance_8.setTransform(95.6,323.4);
-	this.instance_8.alpha = 0;
+	this.instance_7 = new lib.signupgfx("synched",0);
+	this.instance_7.parent = this;
+	this.instance_7.setTransform(95.6,323.4);
+	this.instance_7.alpha = 0;
 
-	var maskedShapeInstanceList = [this.instance_8];
+	var maskedShapeInstanceList = [this.instance_7];
 
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(50).to({y:283.7},0).to({y:328.4,alpha:1},10,cjs.Ease.get(1)).to({y:323.4},11,cjs.Ease.get(1)).wait(115));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(50).to({y:283.7},0).to({y:328.4,alpha:1},10,cjs.Ease.get(1)).to({y:323.4},11,cjs.Ease.get(1)).wait(115));
 
 	// rollover-mask (mask)
 	var mask_1 = new cjs.Shape();
@@ -1333,215 +1232,187 @@ p.nominalBounds = null;
 	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:mask_2_graphics_0,x:80.6,y:333.6}).wait(50).to({graphics:mask_2_graphics_50,x:80.6,y:333.6}).wait(136));
 
 	// cta-box
-	this.instance_9 = new lib.ctaboxgfx();
-	this.instance_9.parent = this;
-	this.instance_9.setTransform(80.1,323.9,1.026,1.102,0,0,0,0.1,0.2);
-	this.instance_9.alpha = 0;
+	this.instance_8 = new lib.ctaboxgfx();
+	this.instance_8.parent = this;
+	this.instance_8.setTransform(80.1,323.9,1.026,1.102,0,0,0,0.1,0.2);
+	this.instance_8.alpha = 0;
 
-	var maskedShapeInstanceList = [this.instance_9];
+	var maskedShapeInstanceList = [this.instance_8];
 
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_2;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(50).to({y:283.9},0).to({y:328.9,alpha:1},10,cjs.Ease.get(1)).to({y:323.9},11,cjs.Ease.get(1)).wait(115));
-
-	// top-glasses-right
-	this.instance_10 = new lib.glassestopright();
-	this.instance_10.parent = this;
-	this.instance_10.setTransform(136.5,46.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(186));
-
-	// candle-2
-	this.instance_11 = new lib.candle2mc();
-	this.instance_11.parent = this;
-	this.instance_11.setTransform(11,372.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(186));
-
-	// candle-1
-	this.instance_12 = new lib.candle1mc();
-	this.instance_12.parent = this;
-	this.instance_12.setTransform(54,382.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(186));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(50).to({y:283.9},0).to({y:328.9,alpha:1},10,cjs.Ease.get(1)).to({y:323.9},11,cjs.Ease.get(1)).wait(115));
 
 	// cookie-greens
-	this.instance_13 = new lib.cookiegreens_1();
+	this.instance_9 = new lib.cookiegreens_1();
+	this.instance_9.parent = this;
+	this.instance_9.setTransform(84.5,500.8);
+	this.instance_9.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(86).to({alpha:1},0).wait(100));
+
+	// cookie-berries
+	this.instance_10 = new lib.cookieberries_1();
+	this.instance_10.parent = this;
+	this.instance_10.setTransform(84.5,500.8);
+	this.instance_10.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(83).to({alpha:1},0).wait(103));
+
+	// cookie-frosting
+	this.instance_11 = new lib.cookiefrosting_1();
+	this.instance_11.parent = this;
+	this.instance_11.setTransform(84.5,500.8);
+	this.instance_11.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(76).to({alpha:1},0).wait(110));
+
+	// cookie-seventeen
+	this.instance_12 = new lib.cookieseventeen_1();
+	this.instance_12.parent = this;
+	this.instance_12.setTransform(84.5,500.8);
+	this.instance_12.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(69).to({alpha:1},0).wait(117));
+
+	// cookie-sixteen
+	this.instance_13 = new lib.cookiesixteen_1();
 	this.instance_13.parent = this;
 	this.instance_13.setTransform(84.5,500.8);
 	this.instance_13.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(86).to({alpha:1},0).wait(100));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(65).to({alpha:1},0).wait(121));
 
-	// cookie-berries
-	this.instance_14 = new lib.cookieberries_1();
+	// cookie-fifteen
+	this.instance_14 = new lib.cookiefifteen_1();
 	this.instance_14.parent = this;
 	this.instance_14.setTransform(84.5,500.8);
 	this.instance_14.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(83).to({alpha:1},0).wait(103));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(61).to({alpha:1},0).wait(125));
 
-	// cookie-frosting
-	this.instance_15 = new lib.cookiefrosting_1();
+	// cookie-fourteen
+	this.instance_15 = new lib.cookiefourteen_1();
 	this.instance_15.parent = this;
 	this.instance_15.setTransform(84.5,500.8);
 	this.instance_15.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(76).to({alpha:1},0).wait(110));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(57).to({alpha:1},0).wait(129));
 
-	// cookie-seventeen
-	this.instance_16 = new lib.cookieseventeen_1();
+	// cookie-thirteen
+	this.instance_16 = new lib.cookiethirteen_1();
 	this.instance_16.parent = this;
 	this.instance_16.setTransform(84.5,500.8);
 	this.instance_16.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(69).to({alpha:1},0).wait(117));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(53).to({alpha:1},0).wait(133));
 
-	// cookie-sixteen
-	this.instance_17 = new lib.cookiesixteen_1();
+	// cookie-twelve
+	this.instance_17 = new lib.cookietwelve_1();
 	this.instance_17.parent = this;
 	this.instance_17.setTransform(84.5,500.8);
 	this.instance_17.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(65).to({alpha:1},0).wait(121));
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(49).to({alpha:1},0).wait(137));
 
-	// cookie-fifteen
-	this.instance_18 = new lib.cookiefifteen_1();
+	// cookie-eleven
+	this.instance_18 = new lib.cookieeleven_1();
 	this.instance_18.parent = this;
 	this.instance_18.setTransform(84.5,500.8);
 	this.instance_18.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(61).to({alpha:1},0).wait(125));
+	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(45).to({alpha:1},0).wait(141));
 
-	// cookie-fourteen
-	this.instance_19 = new lib.cookiefourteen_1();
+	// cookie-tene
+	this.instance_19 = new lib.cookieten_1();
 	this.instance_19.parent = this;
 	this.instance_19.setTransform(84.5,500.8);
 	this.instance_19.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(57).to({alpha:1},0).wait(129));
+	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(41).to({alpha:1},0).wait(145));
 
-	// cookie-thirteen
-	this.instance_20 = new lib.cookiethirteen_1();
+	// cookie-nine
+	this.instance_20 = new lib.cookienine_1();
 	this.instance_20.parent = this;
 	this.instance_20.setTransform(84.5,500.8);
 	this.instance_20.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(53).to({alpha:1},0).wait(133));
+	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(37).to({alpha:1},0).wait(149));
 
-	// cookie-twelve
-	this.instance_21 = new lib.cookietwelve_1();
+	// cookie-eight
+	this.instance_21 = new lib.cookieeight_1();
 	this.instance_21.parent = this;
 	this.instance_21.setTransform(84.5,500.8);
 	this.instance_21.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_21).wait(49).to({alpha:1},0).wait(137));
+	this.timeline.addTween(cjs.Tween.get(this.instance_21).wait(33).to({alpha:1},0).wait(153));
 
-	// cookie-eleven
-	this.instance_22 = new lib.cookieeleven_1();
+	// cookie-seven
+	this.instance_22 = new lib.cookieseven_1();
 	this.instance_22.parent = this;
 	this.instance_22.setTransform(84.5,500.8);
 	this.instance_22.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_22).wait(45).to({alpha:1},0).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.instance_22).wait(29).to({alpha:1},0).wait(157));
 
-	// cookie-tene
-	this.instance_23 = new lib.cookieten_1();
+	// cookie-six
+	this.instance_23 = new lib.cookiesix_1();
 	this.instance_23.parent = this;
 	this.instance_23.setTransform(84.5,500.8);
 	this.instance_23.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_23).wait(41).to({alpha:1},0).wait(145));
+	this.timeline.addTween(cjs.Tween.get(this.instance_23).wait(25).to({alpha:1},0).wait(161));
 
-	// cookie-nine
-	this.instance_24 = new lib.cookienine_1();
+	// cookie-five
+	this.instance_24 = new lib.cookiefive_1();
 	this.instance_24.parent = this;
 	this.instance_24.setTransform(84.5,500.8);
 	this.instance_24.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_24).wait(37).to({alpha:1},0).wait(149));
+	this.timeline.addTween(cjs.Tween.get(this.instance_24).wait(21).to({alpha:1},0).wait(165));
 
-	// cookie-eight
-	this.instance_25 = new lib.cookieeight_1();
+	// cookie-four
+	this.instance_25 = new lib.cookiefour_1();
 	this.instance_25.parent = this;
 	this.instance_25.setTransform(84.5,500.8);
 	this.instance_25.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_25).wait(33).to({alpha:1},0).wait(153));
+	this.timeline.addTween(cjs.Tween.get(this.instance_25).wait(17).to({alpha:1},0).wait(169));
 
-	// cookie-seven
-	this.instance_26 = new lib.cookieseven_1();
+	// cookie-three
+	this.instance_26 = new lib.cookiethree_1();
 	this.instance_26.parent = this;
 	this.instance_26.setTransform(84.5,500.8);
 	this.instance_26.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_26).wait(29).to({alpha:1},0).wait(157));
+	this.timeline.addTween(cjs.Tween.get(this.instance_26).wait(13).to({alpha:1},0).wait(173));
 
-	// cookie-six
-	this.instance_27 = new lib.cookiesix_1();
+	// cookie-two
+	this.instance_27 = new lib.cookietwo_1();
 	this.instance_27.parent = this;
 	this.instance_27.setTransform(84.5,500.8);
 	this.instance_27.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_27).wait(25).to({alpha:1},0).wait(161));
-
-	// cookie-five
-	this.instance_28 = new lib.cookiefive_1();
-	this.instance_28.parent = this;
-	this.instance_28.setTransform(84.5,500.8);
-	this.instance_28.alpha = 0;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_28).wait(21).to({alpha:1},0).wait(165));
-
-	// cookie-four
-	this.instance_29 = new lib.cookiefour_1();
-	this.instance_29.parent = this;
-	this.instance_29.setTransform(84.5,500.8);
-	this.instance_29.alpha = 0;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_29).wait(17).to({alpha:1},0).wait(169));
-
-	// cookie-three
-	this.instance_30 = new lib.cookiethree_1();
-	this.instance_30.parent = this;
-	this.instance_30.setTransform(84.5,500.8);
-	this.instance_30.alpha = 0;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_30).wait(13).to({alpha:1},0).wait(173));
-
-	// cookie-two
-	this.instance_31 = new lib.cookietwo_1();
-	this.instance_31.parent = this;
-	this.instance_31.setTransform(84.5,500.8);
-	this.instance_31.alpha = 0;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_31).wait(9).to({alpha:1},10).wait(167));
+	this.timeline.addTween(cjs.Tween.get(this.instance_27).wait(9).to({alpha:1},10).wait(167));
 
 	// cookie-one
-	this.instance_32 = new lib.cookietrayone();
-	this.instance_32.parent = this;
-	this.instance_32.setTransform(84.5,500.8);
+	this.instance_28 = new lib.cookietrayone();
+	this.instance_28.parent = this;
+	this.instance_28.setTransform(84.5,500.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_32).wait(186));
-
-	// table-cloth
-	this.instance_33 = new lib.tableclothtall_1();
-	this.instance_33.parent = this;
-	this.instance_33.setTransform(43,218);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_33).wait(186));
+	this.timeline.addTween(cjs.Tween.get(this.instance_28).wait(186));
 
 	// table
-	this.instance_34 = new lib.whitetable_1();
-	this.instance_34.parent = this;
-	this.instance_34.setTransform(80,300);
+	this.instance_29 = new lib.whitetable_1();
+	this.instance_29.parent = this;
+	this.instance_29.setTransform(80,300);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_34).wait(186));
+	this.timeline.addTween(cjs.Tween.get(this.instance_29).wait(186));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(79.5,299.5,164.8,603.8);
+p.nominalBounds = new cjs.Rectangle(79.9,300,164.4,603.3);
 // library properties:
 lib.properties = {
 	id: '85088BD5353243C8B4895C262600CED3',
@@ -1552,7 +1423,7 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/index_atlas_.png", id:"index_atlas_"}
+		{src:"images/index_atlas_.jpg", id:"index_atlas_"}
 	],
 	preloads: []
 };
