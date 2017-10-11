@@ -12,6 +12,7 @@
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
 
+
 <!--start of click tag addition-->
 <meta name="ad.size" content="width=160, height=600">
 <script type="text/javascript">
@@ -49,7 +50,7 @@ function handleComplete(evt,comp) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib.wideskyscraperinboxsomethingdelicious();
+	exportRoot = new lib.wideskyscraperfillyourinbox();
 	stage = new lib.Stage(canvas);
 	stage.addChild(exportRoot);
 	stage.enableMouseOver();	
@@ -99,16 +100,15 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:160px; height:600px">
 	
 	<!--additional click tag code, wrapped canvas in anchor tag-->
 <a href="javascript:window.open(window.clickTag)">
 		<canvas id="canvas" width="160" height="600" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 		</a>
+		
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:160px; height:600px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
-
 </body>
 </html>
